@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar Ahmed Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Uncut+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Optional: Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body  >
+
+    <!-- Header -->
+<header class="navbar text-white shadow-md sticky top-0 z-50">
+  <div class="container mx-auto flex justify-between items-center p-5">
+    <!-- Logo / Name -->
+    <a href="#hero" class="text-2xl font-bold hover:text-#FFFFFF transition">Umar Ahmed</a>
+
+    <!-- Desktop Menu -->
+    <nav class="hidden md:flex space-x-8">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <!-- Mobile Hamburger -->
+    <div class="md:hidden">
+      <button id="menu-btn" class="focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <nav id="mobile-menu" class="hidden bg-blue-600 md:hidden px-5 pb-5">
+    <a href="#about" class="block py-2 nav-link">About</a>
+    <a href="#skills" class="block py-2 nav-link">Skills</a>
+    <a href="#portfolio" class="block py-2 nav-link">Portfolio</a>
+    <a href="#contact" class="block py-2 nav-link">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="hero" class="bg-gray-100 py-16 fade-in">
+  <h1></h1>
+  <div class="container mx-auto flex flex-col-reverse md:flex-row items-center gap-10 px-5">
+
+    <!-- Description / Summary -->
+    <div class="md:w-1/2 text-center md:text-left">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4 text-gray-800">
+        Hi, I'm Umar Ahmed
+      </h1>
+      <p class="text-gray-700 mb-6">
+        I am a Front-End Developer passionate about building responsive, modern, and user-friendly websites.
+        Skilled in HTML, CSS, JavaScript, React JS, Bootstrap, Tailwind CSS, Figma, and exploring Agentic AI for automation.
+      </p>
+ <a href="tel:03182593427" class="contact-btn">
+  Contact Me
+</a>
+
+
+    </div>
+
+    <!-- Profile Picture -->
+    <div class="md:w-1/2 flex justify-center md:justify-end">
+      <img src="./my pic.jpg" alt="Umar Ahmed" class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full shadow-lg">
+    </div>
+
+  </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="about p-20  rounded-md text-center fade-in">
+        <h2 class="text-5xl font-bold mb-5">About Me</h2>
+        <p class="max-w-3xl mx-auto text-white">
+           Hi! I’m Umar Ahmed, a passionate Front-End Developer with a strong focus on building clean, responsive, and user-friendly web experiences. I specialize in HTML, CSS, JavaScript, React JS, Bootstrap, Tailwind CSS, and Figma, allowing me to transform modern UI designs into fully functional, high-performance websites and web applications.
+
+I enjoy crafting reusable components, optimizing performance, and ensuring cross-browser compatibility. Alongside front-end development, I am actively exploring Agentic AI to build intelligent automation solutions, smart workflows, and AI-powered web integrations.
+
+I am constantly learning new technologies and best practices to stay up-to-date with the evolving web ecosystem. My goal is to create digital products that are not only visually appealing but also scalable, efficient, and impactful.
+        </p>
+    </section>
+
+    <h1 class="text-center text-5xl mb-10 mt-10">Skill</h1>
+   <!-- Skills Section -->
+<section class="skills" id="skills">
+    
+    <div class="skill-card">
+      <div class="icon">✓</div>
+      <h3>HTML</h3>
+      <p>Strong structure building with semantic and SEO-friendly HTML.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon">✓</div>
+      <h3>CSS</h3>
+      <p>Modern layouts using Flexbox, Grid and responsive design.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon">✓</div>
+      <h3>JavaScript</h3>
+      <p>Logic building, DOM manipulation and ES6+ concepts.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon">✓</div>
+      <h3>React JS</h3>
+      <p>Component-based UI, hooks and reusable frontend logic.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon">✓</div>
+      <h3>Bootstrap</h3>
+      <p>Fast UI development with responsive components.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon">✓</div>
+      <h3>Tailwind CSS</h3>
+      <p>Utility-first CSS for clean and scalable UI design.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon">✓</div>
+      <h3>Figma</h3>
+      <p>UI/UX design, wireframes and modern layouts.</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="icon">✓</div>
+      <h3>Agentic AI</h3>
+      <p>AI agents, automation and smart task-based workflows.</p>
+    </div>
+
+  </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="p-10 text-center fade-in">
+        <h2 class="text-5xl font-bold mb-5">Portfolio</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+ <div class="skill-card flex flex-col gap-6">
+  <h2 class="text-3xl font-semibold">Raha_Financial</h2>
+
+  <p class="text-3xl text-black">
+    I build modern, responsive websites and web apps using front-end technologies and explore React js and tailwindcss.
+  </p>
+
+  <a href="https://raha-web.vercel.app/" target="_blank" class="project-btn">
+    View Project
+  </a>
+</div>
+
+<div class="skill-card flex flex-col gap-6">
+  <h2 class="text-3xl font-semibold">Raha_landing</h2>
+
+  <p class="text-3xl text-black">
+    I build modern, responsive websites and web apps using front-end technologies and explore React js and tailwindcss.
+  </p>
+
+  <a href="https://raha-landing.vercel.app/" target="_blank" class="project-btn">
+    View Project
+  </a>
+</div>
+<div class="skill-card flex flex-col gap-6">
+  <h2 class="text-3xl font-semibold">auto-eye-web</h2>
+
+  <p class="text-3xl text-black">
+    I build modern, responsive websites and web apps using front-end technologies and explore HTML,CSS,Tailwindcss.
+  </p>
+
+  <a href="https://auto-eye-web.vercel.app/" target="_blank" class="project-btn">
+    View Project
+  </a>
+</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact p-10 text-center fade-in">
+        <h2 class="text-5xl font-bold mb-5">Contact Me</h2>
+        <form class="max-w-xl mx-auto flex flex-col gap-4">
+            <input type="text" placeholder="Your Name" class="p-3 border rounded-md">
+            <input type="email" placeholder="Your Email" class="p-3 border rounded-md">
+            <textarea placeholder="Your Message" class="p-3 border rounded-md"></textarea>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+<!-- Footer -->
+<footer class="bg-[#1445c2] text-white py-10 fade-in">
+  <div class="container mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!-- About / Logo -->
+    <div class="text-center md:text-left">
+      <h2 class="text-2xl font-bold mb-3">Umar Ahmed</h2>
+      <p class="text-white text-sm">
+        I am a Front-End Developer passionate about building responsive, modern, and user-friendly websites.
+        Skilled in HTML, CSS, JavaScript, React JS, Bootstrap, Tailwind CSS, Figma, and exploring Agentic AI for automation.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="text-center">
+      <h3 class="font-semibold mb-3">Quick Links</h3>
+      <ul>
+        <li><a href="#about" class="footer-link">About</a></li>
+        <li><a href="#skills" class="footer-link">Skills</a></li>
+        <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+        <li><a href="#contact" class="footer-link">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Links -->
+    <div class="text-center md:text-right">
+      <h3 class="font-semibold mb-3">Connect With Me</h3>
+      <div class="flex justify-center md:justify-end space-x-4">
+        <a href="https://www.linkedin.com/in/umarahmedansari/" target="_blank" class="footer-link">LinkedIn</a>
+        <a href="https://github.com/umarahmed707?tab=repositories" target="_blank" class="footer-link">GitHub</a>
+        
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom Copyright -->
+  <div class="mt-8 border-t border-white pt-5 text-center text-white text-sm">
+    &copy; 2026 Umar Ahmed | All Rights Reserved
+  </div>
+</footer>
+
+
+    <script>
+  const faders = document.querySelectorAll('.fade-in');
+
+  const appearOptions = {
+    threshold: 0.2,
+    rootMargin: "0px 0px -50px 0px"
+  };
+
+  const appearOnScroll = new IntersectionObserver(function(entries, observer) {
+    entries.forEach(entry => {
+      if(!entry.isIntersecting) return;
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    });
+  }, appearOptions);
+
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+  });
+</script>
+
+</body>
+</html>
